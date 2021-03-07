@@ -58,7 +58,7 @@ def max():
     for i in range(3):
         for j in range(3):
             if board[i][j] == 0:
-                # Caso se estiver vazio, o jogador faz a jogada e chama a função min
+                # Caso se estiver vazio, a maquina faz a jogada e chama a função min que simula a jogada do jogador
                 board[i][j] = -1
                 #exibir()
                 (m, min_i, min_j) = min()
