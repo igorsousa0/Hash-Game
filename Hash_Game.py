@@ -143,10 +143,10 @@ def vitoria():
     # Checando as Diagonais
     diagonal1 = board[0][0] + board[1][1] + board[2][2]
     diagonal2 = board[0][2] + board[1][1] + board[2][0]  
-    # Se a maquina ganhou pela diagonal
+    # Se o jogador ganhou pela diagonal
     if diagonal1 == 3 or diagonal2 == 3:
         return 1
-    # Se o jogador ganhou pela diagonal    
+    # Se a maquina ganhou pela diagonal    
     elif diagonal1 == -3 or diagonal2 == -3:
         return -1               
     # Verifica se há espaço
